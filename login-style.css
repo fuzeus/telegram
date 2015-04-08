@@ -1,40 +1,53 @@
 body{
   font-family: "Open Sans";
   background-color: #008CB8;
-  margin: 100px 20px 20px 20px;
+
 
 }
 .front-card{
   background-color: white;
-  margin: 215px;
-  border-width: 210px;
-  padding: 150px 400px 200px 300px;
-  overflow: auto;
-}
-.post{
   position: absolute;
-  top: 210px;
-  right: 250px;
+  top: 150px;
+  bottom: 350px;
+  right: 100px;
+  left: 100px;
+
 }
-#get{
-  font-size: 22px;
-  color: #000000;
-  position: absolute;
-  top: 320px;
-  left:680px;
+.left{
+  position: relative;
+  float:left;
+  width: 50%;
 
 }
 .logo{
   position: absolute;
-  top: 270px;
-  left: 275px;
-  padding: 80px 50px;
-  border-style: solid;
+  top: 150px;
+  left: 150px;
+  border-style: solid
+
   border-width: 1px;
   border-top-color: white;
   border-right-color: #EEEEEE;
   border-bottom-color: white;
-  border-left-color: white;
+  border-left-color: white
+}
+.right{
+  position:relative;
+  float: right;
+  width: 50;
+}
+.post{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  clear: both;
+}
+#get{
+  font-size: 22px;
+  color: #000000;
+  padding-right: 350px;
+  padding-top: 150px;
+
 }
 #username{
   font-size: 13px;
@@ -45,9 +58,7 @@ body{
   border-right-color: white;
   border-bottom-color: #EEEEEE;
   padding-right: 150px;
-  position: absolute;
-  top: 400px;
-  left: 680px;
+
 }
 #password{
   font-size: 13px;
@@ -58,38 +69,35 @@ body{
   border-right-color: white;
   border-bottom-color: #EEEEEE;
   padding-right: 150px;
-  position: absolute;
-  top: 425px;
-  left: 680px;
 
 }
 .rest{
-  display: inline;
-  position: absolute;
-  top: 475px;
-  right: 300px;
-
+  display: inline-block;
 }
-.log{
+
+input[type="button"] {
+  background-color: white;
+  border-style: solid;
+  border-color: white;
   font-size: 13px;
   color: #0084B2;
-  font-weight: bold;
-  padding: 7px;
   border-style: solid;
   border-width: 1px;
   border-color:#0084B2;
-  position: absolute;
-  top: 475px;
-  left: 680px;
+  padding: 7px;
+
 
 }
 .rec {
   font-size: 13px;
   color:#0084B2;
+  padding-left: 100px;
+  text-decoration: none;
 }
 .sign {
   font-size: 13px;
   color:#0084B2;
+  text-decoration: none;
 }
 .mid {
   font-size: 13px;
