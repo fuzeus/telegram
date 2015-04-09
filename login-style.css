@@ -8,6 +8,7 @@ body{
   background-color: white;
   position: relative;
   margin: 100px 100px;
+  min-width: 920px;
 
 }
 .left{
@@ -89,15 +90,14 @@ input[type="button"] {
 }
 a{
   text-decoration:none;
+  color:#0084B2;
 }
 .rec {
   font-size: 13px;
-  color:#0084B2;
   padding-left: 100px;
 }
 .sign {
   font-size: 13px;
-  color:#0084B2;
 }
 .mid {
   font-size: 13px;
