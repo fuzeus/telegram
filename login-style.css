@@ -6,11 +6,8 @@ body{
 }
 .front-card{
   background-color: white;
-  position: absolute;
-  top: 150px;
-  bottom: 350px;
-  right: 100px;
-  left: 100px;
+  position: relative;
+  margin: 100px 100px;
 
 }
 .left{
@@ -34,7 +31,7 @@ body{
 .right{
   position:relative;
   float: right;
-  width: 50;
+  width: 50%;
 }
 .post{
   position: absolute;
@@ -74,7 +71,9 @@ body{
 .rest{
   display: inline-block;
 }
-
+.log{
+  margin-bottom: 50px;
+}
 input[type="button"] {
   background-color: white;
   border-style: solid;
@@ -88,17 +87,21 @@ input[type="button"] {
 
 
 }
+a{
+  text-decoration:none;
+}
 .rec {
   font-size: 13px;
   color:#0084B2;
   padding-left: 100px;
-  text-decoration: none;
 }
 .sign {
   font-size: 13px;
   color:#0084B2;
-  text-decoration: none;
 }
 .mid {
   font-size: 13px;
+}
+.clearboth{
+  clear: both;
 }
